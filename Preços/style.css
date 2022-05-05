@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: hsl(240, 78%, 98%);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container{
+    display: flex;
+    width: 1100px;
+    height: 550px;
+}
+
+main h1{
+    margin-bottom: 20px;
+    color: hsl(233, 13%, 49%);
+    font-size: 2rem;
+}
+.topo{
+    margin-bottom: 20px;
+    color: hsl(233, 13%, 49%);
+}
+
+main .container .basic{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    color: hsl(233, 13%, 49%);
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+
+main .container .basic span:nth-child(2){
+    font-size: 2rem;
+}
+
+main .container .professional{
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    color: hsl(240, 78%, 98%);
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+
+main .container .professional a{
+    color: #fff;
+}
+
+main .container .professional span:nth-child(2){
+    font-size: 2rem;
+}
+
+
+main .container .master{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    color: hsl(233, 13%, 49%);
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;    
+}
+
+main .container .master span:nth-child(2){
+    font-size: 2rem;
+}
+
+main .container section:nth-child(1) a,
+main .container section:nth-child(3) a{
+    color: hsl(236, 72%, 79%);
+}
+
+main .container section p{
+    margin: 20px 0;
+}
+
+main .container a{
+    text-decoration: none;
+    border: 2px solid hsl(236, 72%, 79%);
+    padding: 5px 35px;
+    border-radius: 6px;
+}
+

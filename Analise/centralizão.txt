@@ -1,0 +1,8 @@
+
+
+Para que seu conteudo se centralize no meio na horizontal voce usa um display flex na sua classe pai, e depois um justify-content:center
+
+Horizontal: display:flex, justify-content:center
+
+Vertical: Align-items:center
+
